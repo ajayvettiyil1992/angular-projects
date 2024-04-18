@@ -1,3 +1,20 @@
 .skill-card{
     height: 95%;
 }
+
+.profile-img {
+    height: 100%;
+    background-image: url(../../../assets/images/[removal.ai]_e81062d1-d61f-4f91-9b0f-e7d9af4c61e3-whatsapp-image-2024-04-14-at-8-59-26-pm_RTKU1A.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-img {
+        height: 400px;
+    }
+}
+
+.social-icons {
+    margin: 2%;
+}

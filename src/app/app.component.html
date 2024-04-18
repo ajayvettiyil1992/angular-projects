@@ -1,12 +1,12 @@
-<div class="container-fluid primary-page">
+<div class="container primary-page">
   <div class="row">
     <div class="col-lg-12">
       <app-header></app-header>
     </div>
   </div>
   <div class="row ">
-    <div class="col-lg-12 p-5" style="overflow-y: scroll;height: calc(100vh - 9vw);">
-     <router-outlet></router-outlet>
+    <div class="col-lg-12" style="overflow-y: auto;min-height: calc(100vh - 9vw);">
+      <router-outlet></router-outlet>
     </div>
   </div>
   <div class="row">

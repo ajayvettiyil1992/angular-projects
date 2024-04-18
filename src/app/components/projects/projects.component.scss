@@ -600,7 +600,7 @@ h4 {
 .main-timeline3 .year {
     display: block;
     width: 80%;
-    height: 50px;
+    min-height: 50px;
     background: #c47c48;
     padding: 0 0 0 50px;
     font-size: 12px;
